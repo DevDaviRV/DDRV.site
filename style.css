@@ -15,6 +15,7 @@ html {
 
 a {
     text-decoration: none;
+    display: flex;
 }
 
 body {
