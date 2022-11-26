@@ -388,26 +388,7 @@ h1 {
 /* transform: translate(0);
     overflow: hidden;
 
-} */
-/* animaçao */
-#btn-projetos::before {
-    content: "";
-    position: absolute;
-    background: #b509ff;
-    width: 0.5rem;
-    top: 0;
-    bottom: 0;
-    left: -2rem;
-    transform: rotate(-16deg);
-    filter: blur(0.3rem);
-    transition: 0.75s;
-}
 
-/* animaçao */
-#btn-projetos:hover::before {
-    left: calc(100% + 2rem);
-    transition: 0.75s;
-}
 
 */ .linkgit {
     text-decoration: none;
@@ -450,7 +431,7 @@ button {
     padding: 0;
     font-size: large;
     font-family: 'Archivo', sans-serif;
-    margin-left: 54.7rem;
+    margin: auto;
     margin-top: 3rem;
     
     
