@@ -14,14 +14,15 @@ html {
 }
 
 a {
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 body {
     background: rgb(0, 0, 0);
-    
-    
-    
+    transition: 1s;
+
+
+
 }
 
 
@@ -39,21 +40,19 @@ header {
     width: 12rem;
     height: 5rem;
     margin-top: 1rem;
-    margin-left: 20rem;
+    margin-left: 12rem;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    margin-right: 20rem;
+
     justify-content: space-around;
 
 
 }
 
-#navMenu {
-    margin-left: 20rem;
-}
+
 
 .linksNav {
     position: relative;
@@ -64,7 +63,7 @@ nav {
     font-weight: bold;
     font-size: 1.2rem;
     margin-left: 4rem;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     height: 3.5rem;
     align-items: center;
     text-decoration: none;
@@ -98,6 +97,8 @@ main {
     position: absolute;
     margin-top: 20rem;
     margin-left: 22rem;
+
+
 }
 
 h1 {
@@ -152,13 +153,16 @@ h1 {
     transition: 0.5s;
 }
 
+
 #img-aside {
-    width: 30rem;
-    height: 30rem;
-    margin-left: 10rem;
+    width: 42rem;
+    height: 40rem;
+    margin-left: 7rem;
+    position: absolute;
     transform: translateY(-25%);
     border-radius: 50%;
-    box-shadow: 0rem 0rem 10rem #b509ff;
+
+
 }
 
 #section2 {
@@ -171,13 +175,14 @@ h1 {
 }
 
 #img-gif {
-    height: 30rem;
-    padding-top: 2rem;
+    height: 33rem;
+    background: rgb(211, 50, 255);
+    background: linear-gradient(90deg, rgba(211, 50, 255, 1) 0%, rgba(88, 254, 255, 0.9051995798319328) 50%, rgba(149, 0, 255, 1) 100%);
     margin-left: 20rem;
-    max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
 }
 
 #img-gif:hover {
@@ -408,9 +413,9 @@ h1 {
 #btn-projetos:hover::before {
     left: calc(100% + 2rem);
     transition: 0.75s;
-} */
+}
 
-*/ .linkgit {
+*/ */ .linkgit {
     text-decoration: none;
 }
 
@@ -440,7 +445,7 @@ h1 {
 
 /* Botao repositorio github */
 
-button {
+#btn-projeto {
     position: relative;
     cursor: pointer;
     outline: none;
@@ -451,24 +456,27 @@ button {
     padding: 0;
     font-size: large;
     font-family: 'Archivo', sans-serif;
-    margin: auto;
+    display: flex;
     margin-top: 3rem;
+    max-width: 12rem;
 
 }
 
 #linkGit {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-button.learn-more {
+#btn-projeto.learn-more {
     width: 12rem;
     height: auto;
-    
+
 }
 
-button.learn-more .circle {
+#btn-projeto.learn-more .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: relative;
+    position: absolute;
     display: block;
     margin: 0;
     width: 3rem;
@@ -477,7 +485,7 @@ button.learn-more .circle {
     border-radius: 1.625rem;
 }
 
-button.learn-more .circle .icon {
+#btn-projeto.learn-more .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -486,7 +494,7 @@ button.learn-more .circle .icon {
     background: #fff;
 }
 
-button.learn-more .circle .icon.arrow {
+#btn-projeto.learn-more .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
@@ -494,7 +502,7 @@ button.learn-more .circle .icon.arrow {
     background: none;
 }
 
-button.learn-more .circle .icon.arrow::before {
+#btn-projeto.learn-more .circle .icon.arrow::before {
     position: absolute;
     content: "";
     top: -0.29rem;
@@ -504,9 +512,10 @@ button.learn-more .circle .icon.arrow::before {
     border-top: 0.125rem solid #fff;
     border-right: 0.125rem solid #fff;
     transform: rotate(45deg);
+
 }
 
-button.learn-more .button-text {
+#btn-projeto.learn-more .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -523,16 +532,16 @@ button.learn-more .button-text {
 
 }
 
-button:hover .circle {
+#btn-projeto:hover .circle {
     width: 85%;
 }
 
-button:hover .circle .icon.arrow {
+#btn-projeto:hover .circle .icon.arrow {
     background: #fff;
     transform: translate(1rem, 0);
 }
 
-button:hover .button-text {
+#btn-projeto:hover .button-text {
     color: #fff;
 }
 
@@ -610,14 +619,14 @@ button:hover .button-text {
 #section4 {
     height: 44rem;
     width: 100%;
-    background-color:  rgb(0, 0, 0);
+    background: none;
     transform: translateY(135%);
     text-align: center;
 }
 
 #sec4-h2 h2 {
     color: #ffffff;
-    
+
     font-size: 2rem;
 }
 
@@ -723,32 +732,33 @@ button:hover .button-text {
     border-bottom: 0.063rem solid rgba(181, 9, 255, 1);
 }
 
-#sec3-h3, #testjs {
+#sec3-h3,
+#testjs {
     caret-color: #b509ff;
 }
 
 /* Carrousel */
 
 .items {
-    
+
     position: absolute;
     top: 41rem;
     left: 50%;
     transform: translate(-50%, -50%);
     user-select: none;
-  }
+}
 
-  .items h3 {
+.items h3 {
     color: #ffffff;
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: translateY(-200%);
-  }
+}
 
 
-  .items .item {
+.items .item {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -760,62 +770,62 @@ button:hover .button-text {
     transition: all 300ms ease-in-out;
     z-index: -1;
     opacity: 0;
-  }
-  
-  .item img {
+}
+
+.item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  
-  .item.active {
+
+.item.active {
     opacity: 1;
     z-index: 99;
-    
+
     animation: pulse 1s infinite;
-    animation-play-state:running;
+    animation-play-state: running;
     position: static;
     transition: 0.5s;
-  }
-  
-  .item.prev {
+}
+
+.item.prev {
     z-index: 2;
     opacity: 0.25;
     transform: translate(-125%, -50%);
-  }
-  
-  .item.next {
+}
+
+.item.next {
     z-index: 2;
     opacity: 0.25;
     transform: translate(25%, -50%);
-  }
-  
-  .items .button-container {
+}
+
+.items .button-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30rem;
     z-index: 100;
-  }
-  
-  
-  .button-container .button4 {
+}
+
+
+.button-container .button4 {
     color: #fff;
     font-size: 32rem;
     cursor: pointer;
     position: relative;
     opacity: 0.75;
     transition: all 300ms ease-in-out;
-    
-  }
-  
-  .button-container .button4:hover {
+
+}
+
+.button-container .button4:hover {
     opacity: 2;
-  }
-  
-  .button-container .btn1:before {
+}
+
+.button-container .btn1:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -826,8 +836,9 @@ button:hover .button-text {
     background-image: url(assets/icons8-seta-longa-à-esquerda-48\ \(1\).png);
     border-radius: 50%;
     z-index: 99;
-  }
-  .button-container .btn2:before {
+}
+
+.button-container .btn2:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -838,24 +849,24 @@ button:hover .button-text {
     background-image: url(assets/seta-direita.png);
     border-radius: 50%;
     z-index: 99;
-  }
-  
-  .button-container .button4:nth-child(1) {
-    float: left;
-  }
-  
-  .button-container .button4:nth-child(2) {
-    float: right;
-    
-  }
+}
 
-  @keyframes pulse {
+.button-container .button4:nth-child(1) {
+    float: left;
+}
+
+.button-container .button4:nth-child(2) {
+    float: right;
+
+}
+
+@keyframes pulse {
     0% {
         transform: scale(1.1);
         opacity: 1;
     }
 
-    
+
     /* 10% {
         transform:  scale(1.2);
     }
@@ -870,10 +881,10 @@ button:hover .button-text {
     } */
     50% {
         transform: scale(1.3);
-        
+
     }
 
-    
+
     /* 60% {
         transform:  scale(1.3);
     }
@@ -885,6 +896,3 @@ button:hover .button-text {
         opacity: 1;
     }
 }
-
-
-  
