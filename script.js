@@ -29,7 +29,7 @@ const slider = document.querySelector(".items");
 		const button = document.querySelectorAll(".button4");
 
 		let current = 0;
-		let prev = 5;
+		let prev = 6;
 		let next = 1;
 
 		for (let i = 0; i < button.length; i++) {
@@ -38,7 +38,7 @@ const slider = document.querySelector(".items");
 
 		const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
 
-		const gotoNext = () => current < 5 ? gotoNum(current + 1) : gotoNum(0);
+		const gotoNext = () => current < 6 ? gotoNum(current + 1) : gotoNum(0);
 
 		const gotoNum = number => {
 			current = number;
@@ -51,7 +51,7 @@ const slider = document.querySelector(".items");
 				slides[i].classList.remove("next");
 			}
 
-			if (next == 6) {
+			if (next == 7) {
 				next = 0;
 			}
 
@@ -65,120 +65,32 @@ const slider = document.querySelector(".items");
 		}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  //Teste efeito digitaçao sem API
-
-                              // new TypeIt("#testjs", { 
-            //     lifeLike: true, 
-            //     speed: 50,
-            //     waitUntilVisible: true
-            // })
-            //     .type("S")
-            //     .pause(0)
-            //     .type("e")
-            //     .pause(0)
-            //     .type("r")
-            //     .pause(0)
-            //     .type("v")
-            //     .pause(0)
-            //     .type("i")
-            //     .pause(0)
-            //     .type("ç")
-            //     .pause(0)
-            //     .type("o")
-            //     .pause(0)
-            //     .type("s")
-            //     .pause(0)
-            //     .type(" ")
-            //     .pause(0)
-            //     .type("q")
-            //     .pause(0)
-            //     .type("u")
-            //     .pause(0)
-            //     .type("e")
-            //     .pause(0)
-            //     .type(" ")
-            //     .pause(0)
-            //     .type("o")
-            //     .pause(0)
-            //     .type("f")
-            //     .pause(0)
-            //     .type("e")
-            //     .pause(0)
-            //     .type("r")
-            //     .pause(0)
-            //     .type("e")
-            //     .pause(0)
-            //     .type("ç")
-            //     .pause(0)
-            //     .type("o")
-            //     .pause(0)
-            //     .type(":")
-            //     .go();
-
-
-
-
-
-
-
-
-
-
+    //mudar para modo Light
+    let body = document.getElementById('principal');
+    let head = document.getElementById('head');
+    let sobremim = document.getElementById('section2');
+    let projets = document.getElementById('section3');
+    let text = document.getElementsByClassName('tt');
+    let span = document.getElementsByClassName('');
+    //input
+    let inp = document.getElementById('dn')
+
+    function changeBg1() {
+        if(inp.checked == true){
+            body.style.background = 'white'
+            head.style.background = '#b509ff'
+            sobremim.style.background = 'white'
+            projets.style.background = 'white'
+            text.style.color = 'white'
+        }else{
+            body.style.background = ''
+            head.style.background = ''
+            sobremim.style.background = ''
+            projets.style.background = ''
+            text.style.color = ''
+        }
+    }
+    
 
 
 
