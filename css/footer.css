@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    font-family: 'Archivo', sans-serif;
+}
+
+.footer{
+	background: none;
+	width: 100%;
+	height:40rem;
+	float: left;
+	font-size:1.125rem;
+	padding: 3.125rem 0.625rem 1.125rem 0.625rem;
+    transform: translateY(160%);
+}
+.footer .left{ 
+	width:100%; 
+	float:left; 
+	border-bottom:0.063rem #222424 solid;
+	border-right:0; 
+	margin-bottom:1.25rem; 
+    padding-bottom:1.25rem;
+}
+.footer .title-footer {
+	color: #ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: initial;
+    font-size:1.625rem;
+    width:100%;
+    float:left;
+    margin-bottom:0.938rem;
+}
+.footer .title-footer span{
+	color:  #b509ff;
+	font-family:'DM Sans', sans-serif;
+	font-weight: bold;
+}
+/* Footer links */
+.footer .links{
+	
+	width: 100%;
+	float: left;
+	color:  #ffffff;
+	margin-bottom: 1.25rem;
+	padding: 0;
+}
+.footer .links a{
+    display: block;
+    line-height: 2.063rem;
+    text-decoration: none;
+    color: #fff;
+    font-family:'DM Sans', sans-serif;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+
+.footer .links a:hover { color:#b509ff; }
+.footer .Copyright{
+	font-family:'DM Sans', sans-serif;
+	color:  #8f9296;
+	font-size: 0.875rem;
+	font-weight: normal;
+	
+    
+}
+/*Rede Sociais*/
+.footer .footer-icons{
+	
+	width:100%;
+	float:left;
+	margin-bottom:1.25rem;
+    
+    
+}
+.footer .footer-icons a{
+	display: inline-block;
+	width:2.188rem;
+	height: 2.188rem;
+	cursor: pointer;
+    margin-right: 1rem;
+    background-size: cover;
+	border-radius: 3.125rem;
+    font-family:'DM Sans', sans-serif;
+	font-size: 1.25;
+	color: #ffffff;
+	text-align: center;	
+	line-height: 2.188rem;
+	margin-bottom: 0.313;
+	transition:0.3s;
+}
+.footer .footer-icons .fa-instagram{
+    background-image:url(https://cdn-icons-png.flaticon.com/512/3955/3955024.png) ;
+    
+}
+.footer .footer-icons .fa-linkedin{
+    background-image:url(https://cdn-icons-png.flaticon.com/512/4494/4494497.png) ;
+    
+}
+.footer .footer-icons .fa-twitter{
+    background-image:url(https://cdn-icons-png.flaticon.com/512/3670/3670151.png) ;
+   
+}
+.footer .footer-icons .fa-email{
+    background-image:url(https://cdn-icons-png.flaticon.com/512/552/552486.png) ;
+    
+}
+
+.footer .footer-icons a:hover{ 
+    width: 3rem;
+    height: 3rem;
+ }
+/*Right*/
+.footer .right   { width:100%; float:left; }
+.footer .right p {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: initial;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1.875rem;
+	color: #ffffff;
+}
+/*formulario*/
+.footer form { width:100%; float:left; }
+.footer form input,
+.footer form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #221f21;
+	box-shadow: 0 0.063rem 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+    outline: none;
+	font: inherit;
+	font-size: 14px;
+	font-family:'DM Sans', sans-serif;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 100%;
+	padding:1.125rem;
+}
+.footer ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+.footer ::-moz-placeholder {
+	color:  #b509ff;
+	opacity: 1;
+}
+.footer :-ms-input-placeholder{
+	color:  #5c666b;
+}
+.footer form input{
+	
+	width: 100%;
+	height: 3.438rem;
+	float: left;
+	margin-bottom: 0.938rem;
+}
+.footer form textarea{
+	height: 6.25rem;
+	margin-bottom: 1.25rem;
+}
+
+
+/*Responsive*/
+@media (min-width: 1280px) {
+	.footer               { padding: 6.25rem 3.125rem 3.125rem 6.25rem; }
+	.footer .Copyright    { font-size: 16px; }
+	.footer form input,
+	.footer form textarea { width: 100%; float:left; }
+	.footer form button   { padding: 0.625rem 2.188rem; }
+}
+@media (min-width: 768px) {
+	
+	.footer .left         { width:48%; border-bottom:0; }
+	.footer .right        { width:48%; padding-left: 4%; border-left: 0.063rem #222424 solid; } 
+	.footer form          { margin-top: 1.875rem; }
+	.footer form          { display: block; }
+	.footer form button   { float: none; }
+}
+
+/* BOTAO ENVIAR FORM */
+
+#btn-form {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    background: #b509ff;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  
+  #btn-form span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #btn-form svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #btn-form:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  #btn-form:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  #btn-form:hover span {
+    transform: translateX(5em);
+  }
+  
+  #btn-form:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }

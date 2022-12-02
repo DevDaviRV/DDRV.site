@@ -1,0 +1,95 @@
+@media screen and (max-width : 800px) {
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    br {
+        display: none;
+    }
+
+    MAIN {
+        margin: 0;
+        margin-top: 10rem;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #navMenu {
+        display: none;
+    }
+
+
+    #logoImg {
+        margin: 0;
+
+        margin-top: 1rem;
+        margin-right: 20rem;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    #headline-h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dot-span {
+        font-size: 2rem;
+    }
+
+    #img-aside {
+        display: none;
+    }
+
+    #img-about {
+        display: none;
+    }
+
+    .sec2-p {
+        text-align: justify;
+        margin: 0;
+        margin-top: 3rem;
+        padding: 2rem;
+    }
+
+    .items {
+        top: 68rem;
+        padding: 1rem;
+    }
+
+    .items h3 {
+        color: #ffffff;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #section4 {
+        height: 70rem;
+        transform: translateY(85%);
+    }
+
+    #cards-habilidade {
+        gap: 3rem;
+        margin: 0;
+        margin-top: 2rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+
+    }
+
+    #projetos {
+        gap: 1rem;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .card {
+        text-align: center;
+    }
+}
