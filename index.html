@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev { Davi RV }</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="preload.css" rel="stylesheet">
-    <link href="footer.css" rel="stylesheet">
-    <link href="lightDark.css" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/Design sem nome (41)_adobe_express.svg">
-
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/preload.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/lightDark.css" rel="stylesheet">
+    <link href="css/mediaqueries.css"  rel="stylesheet" >
+    <link rel="shortcut icon" href="assets/Design sem nome (41).svg">
+    <script defer src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
 </head>
-<!-- USAR ESSE PRELOAD https://uiverse.io/TimTrayler/chilly-turtle-66 -->
 
-<body  id="principal" onload="loading()">
+<body id="principal" onload="loading()">
     <!-- PRELOAD -->
     <div class="preload-box">
         <div class="spinner">
@@ -34,14 +34,13 @@
         <div id="ancora-inicio"></div>
         <header id="head">
             <nav>
-                <img id="logoImg"
-                    src="https://user-images.githubusercontent.com/104698942/204243635-62c18f7c-a91b-43dc-ae65-23790f6cd938.png"
-                    alt="Logo Marca">
+                <img id="logoImg" src="assets/Novo_Projeto__1_-removebg-preview.svg" alt="Logo Marca">
                 <div id="navMenu">
                     <a class="linksNav tt" href="#ancora-inicio">Ínicio</a>
                     <a class="linksNav tt" href="#section2">Sobre</a>
-                    <a class="linksNav tt" href="#section3">Projetos</a>
+
                     <a class="linksNav tt" href="#section4">Habilidades</a>
+                    <a class="linksNav tt" href="#section3">Projetos</a>
                     <a class="linksNav tt" href="">Experiência</a>
                     <div class="toggleWrapper">
                         <input onclick="changeBg1()" type="checkbox" class="dn" id="dn">
@@ -67,14 +66,15 @@
                 <h1 id="headline-h1" class="tt">De vida a sua marca e empresa com <span class="headline-span">Sites
                         Profissionais</span> de
                     forma linda, moderna e chamativa<span class="dot">.</span></h1>
-                <p class="headline-p tt">Garanta autoridade, credibilidade e alcance no meio digital que vão destacar sua
+                <p class="headline-p tt">Garanta autoridade, credibilidade e alcance no meio digital que vão destacar
+                    sua
                     marca
                     no mercado e sair na frente de seus concorrentes<span class="dot">.</span></p>
                 <input value="Contate-me" type="submit" onclick="abrirContatos()" class="headline-btn"></input>
             </section>
             <aside>
                 <img id="img-aside"
-                    src="https://user-images.githubusercontent.com/104698942/204243852-a26f2e60-9f1e-4cfc-ab90-dfad4aff5863.png"
+                    src="assets/aside2.svg"
                     alt="img Aside">
             </aside>
         </main>
@@ -82,7 +82,23 @@
         <section id="section2">
             <h2 id="sec2-h2" class="tt">Sobre mim<span class="dot">.</span></h2>
             <div class="sobremim">
-                <img id="img-gif" src="https://user-images.githubusercontent.com/104698942/204472769-f51fa2e9-751c-4bfa-acfe-98f8179ca2f4.png" alt="Foto Pessoal">
+                <div id="img-about">
+                    <img id="img-gif"
+                        src="assets/avatar_1669786827718.svg"
+                        alt="Foto Pessoal">
+                    <img class="icons-about i1"
+                        src="https://user-images.githubusercontent.com/104698942/204721350-76c6ff26-e4a7-44fb-90b9-2bee49db2a63.png"
+                        alt="icon coding">
+                    <img class="icons-about i2"
+                        src="https://user-images.githubusercontent.com/104698942/204721345-8f1750d8-219b-42cf-842a-bc3a2e061d8e.png"
+                        alt="icon internet">
+                    <img class="icons-about i3"
+                        src="https://user-images.githubusercontent.com/104698942/204721916-b358ab0a-b8b7-471b-b62c-7c40e119cbaa.png"
+                        alt="icon crypto developer">
+                    <img class="icons-about i4"
+                        src="https://user-images.githubusercontent.com/104698942/204727757-cc2f92ac-6d74-4245-94ce-62e771b41fff.png"
+                        alt="icon SEO and Design">
+                </div>
                 <p class="sec2-p tt">Olá sou o <a href="https://www.instagram.com/dev_davirv/"><span
                             class="headline-span">Dev_DaviRV</span></a>, Desenvolvedor Web e entusiasta WEB3, a mais de
                     1
@@ -118,7 +134,7 @@
                                 class="dot">.</span>
                         </p>
 
-                        <a onclick="maisInfo()" class="btn-link">Visualizar...</a>
+                       
                     </div>
                 </div>
                 <div class="card2">
@@ -140,7 +156,7 @@
                                 class="dot">.</span>
                         </p>
 
-                        <a onclick="maisInfo()" class="btn-link">Visualizar...</a>
+                        
                     </div>
                 </div>
                 <div class="card2">
@@ -153,41 +169,41 @@
                                 </path>
                             </svg>
                         </div>
-                        <h1 class="title">Features</h1>
+                        <h1 class="title">SEO</h1>
                     </div>
 
                     <div class="content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing it amet it<span class="dot">.</span>
+                            Projetos com o objetivo de melhorar o ranqueamento do seu site nos mecanismos de busca,
+                            tendo mais visibilidade.<span class="dot">.</span>
                         </p>
 
-                        <a onclick="maisInfo()" class="btn-link"><img src="">Visualizar...</a>
+                        
                     </div>
                 </div>
             </div>
             <div class="items">
                 <h3 class="tt">Tecnologias<span class="dot"> :</span></h3>
                 <div class="item active">
-                    <img src="assets/javascript (5).png">
+                    <img src="assets/javascript (5).svg">
                 </div>
                 <div class=" item next">
-                    <img src="assets/html5.png">
+                    <img src="assets/html5.svg">
                 </div>
                 <div class="item">
-                    <img src="assets/css3.png">
+                    <img src="assets/css3.svg">
                 </div>
                 <div class="item">
-                    <img src="assets/bootstrap.png">
+                    <img src="assets/bootstrap.svg">
                 </div>
                 <div class="item">
-                    <img src="assets/react-js.png">
+                    <img src="assets/react-js.svg">
                 </div>
                 <div class="item">
-                    <img src="assets/solidity (3).png">
+                    <img src="assets/solidity (3).svg">
                 </div>
                 <div class="item prev">
-                    <img src="assets/node-js.png">
+                    <img src="assets/node-js.svg">
                 </div>
                 <div class="button-container">
                     <div onclick="setaCarrousel()" class="button4 btn1"></div>
@@ -227,7 +243,8 @@
 
                     <a class="tt" href="#" title="Voltar ao Início">Início</a>
                     <a class="tt" href="https://github.com/DevDaviRV" title="Ir para Github">Reposítorios no Github</a>
-                    <a class="tt" href="https://api.whatsapp.com/send?phone=5535997302235&text=Ol%C3%A1%2C%20cheguei%20aqui%20pelo%20site!%20Tenho%20interesse%20em%20comprar%20ou%20tirar%20d%C3%BAvidas%20antes."
+                    <a class="tt"
+                        href="https://api.whatsapp.com/send?phone=5535997302235&text=Ol%C3%A1%2C%20cheguei%20aqui%20pelo%20site!%20Tenho%20interesse%20em%20comprar%20ou%20tirar%20d%C3%BAvidas%20antes."
                         title="Tel/WhatsApp">(35) 9-99730-2235</a>
 
                 </p>
@@ -240,7 +257,7 @@
                 <p class="Copyright tt">Copyright &copy; 2022<a href="#"><span class="dot"> DevDaviRV.dev </span></a>-
                     Todos os Direitos Reservados.</p>
             </div>
-            <!--Left-->
+            <!--esquerda-->
             <div class="right">
                 <h4 class="title-footer tt">Fale Comigo <span class="dot">:</span></h4>
                 <form action="https://formspree.io/f/myyvalge" method="post">
@@ -263,7 +280,7 @@
                     </button>
                 </form>
             </div>
-            <!--Right-->
+            <!--direita-->
         </footer>
     </div>
     <script src="preload.js"></script>
