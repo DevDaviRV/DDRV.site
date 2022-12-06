@@ -1,4 +1,18 @@
-@media screen and (max-width : 800px) {
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 769px) {
+    
+    *{margin: 0;
+    padding: 0;
+}
+    
     body {
         width: 100%;
         box-sizing: border-box;
@@ -83,13 +97,47 @@
 
     }
 
+
     #projetos {
         gap: 1rem;
         margin: 0;
         padding: 1rem;
+        
     }
 
     .card {
         text-align: center;
+        
+    }
+
+    .button-container .button4:nth-child(1) {
+        margin-left: 2rem;
+    }
+    
+    .button-container .button4:nth-child(2) {
+        margin-right: 2rem;
+    
+    }
+
+    .proje1:hover {
+        height: 18rem;
+        position: relative;
+        transition: 0.5s;
+        width:50rem;
+    }
+    
+    .proje2:hover {
+        height: 18rem;
+        position: relative;
+        transition: 0.5s;
+        width:50rem;
+        background-image: url();
+    }
+    
+    .proje3:hover {
+        height: 18rem;
+        position: relative;
+        transition: 0.5s;
+        width:50rem;
     }
 }
