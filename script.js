@@ -70,24 +70,38 @@ const slider = document.querySelector(".items");
     let head = document.getElementById('head');
     let sobremim = document.getElementById('section2');
     let projets = document.getElementById('section3');
-    let text = document.getElementsByClassName('tt');
+    let text1 = document.getElementsByClassName('tt')[0];
+    let text2 = document.getElementsByClassName('tt')[1];
+    let text3 = document.getElementsByClassName('tt')[2];
+    let text4 = document.getElementsByClassName('tt')[3];
+    let text5 = document.getElementsByClassName('tt')[4];
     let span = document.getElementsByClassName('');
+    let nav = document.getElementById('navMenu');
     //input
     let inp = document.getElementById('dn')
 
     function changeBg1() {
         if(inp.checked == true){
             body.style.background = 'white'
-            head.style.background = '#b509ff'
+            head.style.background = '#b300ff'
             sobremim.style.background = 'white'
             projets.style.background = 'white'
-            text.style.color = 'white'
+            text1.style.color = 'black'
+            text2.style.color = 'black'
+            text3.style.color = 'black'
+            text4.style.color = 'black'
+            text5.style.color = 'black'
+
         }else{
             body.style.background = ''
             head.style.background = ''
             sobremim.style.background = ''
             projets.style.background = ''
-            text.style.color = ''
+            text1.style.color = ''
+            text2.style.color = ''
+            text3.style.color = ''
+            text4.style.color = ''
+            text5.style.color = ''
         }
     }
     
