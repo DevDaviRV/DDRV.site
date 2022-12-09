@@ -8,11 +8,12 @@
 .footer{
 	background: none;
 	width: 100%;
-	height:40rem;
+	height:42rem;
 	float: left;
 	font-size:1.125rem;
 	padding: 3.125rem 0.625rem 1.125rem 0.625rem;
-    transform: translateY(160%);
+    transform: translateY(150%);
+	
 }
 .footer .left{ 
 	width:100%; 
@@ -174,7 +175,7 @@
 }
 @media (min-width: 768px) {
 	
-	.footer .left         { width:48%; border-bottom:0; }
+	.footer .left         { width:48%; border-bottom:0; margin-left: 1rem; }
 	.footer .right        { width:48%; padding-left: 4%; border-left: 0.063rem #222424 solid; } 
 	.footer form          { margin-top: 1.875rem; }
 	.footer form          { display: block; }
@@ -235,4 +236,8 @@
     to {
       transform: translateY(-0.1em);
     }
+  }
+
+  .caret {
+	caret-color: #b509ff;
   }
