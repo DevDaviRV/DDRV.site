@@ -1,9 +1,119 @@
-@media screen and (max-width : 769px) {
-    
-    *{margin: 0;
-    padding: 0;
+@media screen and (max-width : 1300px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    br {
+        display: none;
+    }
+
+    #logoImg {
+        margin: 0;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    Main {
+        margin: 0;
+        margin-top: 20rem;
+        padding: 1rem;
+        margin-left: 5rem;
+    }
+
+    header {
+        border-bottom: 1px solid #101013;
+    }
+
+    #img-aside {
+        width: 25rem;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+    #img-gif {
+        height: 30rem;
+        background-color: #101013;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        margin-left: 5rem;
+        margin-top: 3rem;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .i1 {
+        top: -30rem;
+        left: 27rem;
+        animation: moving 2s ease 2.9s infinite alternate
+    }
+
+    .i2 {
+        top: -25rem;
+        left: -3rem;
+        width: 6rem;
+        height: 6rem;
+        animation: moving 2s ease 1.9s infinite alternate
+    }
+
+    .i3 {
+        top: -10rem;
+        left: -13rem;
+        animation: moving 2s ease .9s infinite alternate
+    }
+
+    .i4 {
+        top: -12rem;
+        left: 27rem;
+        width: 5.4rem;
+        height: 5.4rem;
+        animation: moving 2s ease .2s infinite alternate
+    }
+
+    .sec2-p {
+        text-align: justify;
+        margin: 0;
+        margin-top: 3rem;
+        padding: 2rem;
+    }
+
+    .card2 {
+        margin: 2rem;
+        margin-top: .5rem;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
 }
-    
+
+@media screen and (max-width : 769px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         width: 100%;
         box-sizing: border-box;
@@ -21,6 +131,7 @@
         text-align: center;
     }
 
+
     #navMenu {
         display: none;
     }
@@ -30,7 +141,7 @@
         margin: 0;
 
         margin-top: 1rem;
-        margin-right: 20rem;
+        margin-right: 32rem;
         display: flex;
         justify-content: flex-start;
 
@@ -46,11 +157,55 @@
     }
 
     #img-aside {
-        display: none;
+        
+        right: 25%;
+        top: 25rem;
     }
 
-    #img-about {
-        display: none;
+    #img-gif {
+        height: 20rem;
+        background-color: #101013;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        margin-left: 2rem;
+        margin-top: 8rem;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .i1 {
+        top: -20rem;
+        left: 16rem;
+        width: 4.6rem;
+        height: 4.6rem;
+        animation: moving 2s ease 2.9s infinite alternate
+    }
+
+    .i2 {
+        top: -19rem;
+        left: -6rem;
+        width: 5rem;
+        height: 5rem;
+        animation: moving 2s ease 1.9s infinite alternate
+    }
+
+    .i3 {
+        top: -8rem;
+        left: 3.5rem;
+        width: 5rem;
+        height: 5rem;
+        animation: moving 2s ease .9s infinite alternate
+    }
+
+    .i4 {
+        top: -12rem;
+        left: 8rem;
+        width: 5rem;
+        height: 5rem;
+        animation: moving 2s ease .2s infinite alternate
     }
 
     .sec2-p {
@@ -75,8 +230,8 @@
     }
 
     #section4 {
-        height: 70rem;
-        transform: translateY(85%);
+        height: 75rem;
+        transform: translateY(80%);
     }
 
     #cards-habilidade {
@@ -89,46 +244,101 @@
     }
 
 
-    #projetos {
-        gap: 1rem;
-        margin: 0;
-        padding: 1rem;
-        
-    }
 
     .card {
         text-align: center;
+        transition: 0.5s;
+        justify-content: center;
+        align-items: center;
+        margin: 0.2rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
         
     }
 
-    .button-container .button4:nth-child(1) {
-        margin-left: 2rem;
+    .card::after {
+        --m-i: linear-gradient(#000, #000);
+        --m-o: content-box, padding-box;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: var(--border-width);
+        border-radius: 1rem;
+        background-image: conic-gradient(#488cfb,
+                #d400ff,
+                #a200ff,
+                #b509ff,
+                #9900ff,
+                #655adc,
+                #488cfb);
+        -webkit-mask-image: var(--m-i), var(--m-i);
+        mask-image: var(--m-i), var(--m-i);
+        -webkit-mask-origin: var(--m-o);
+        mask-origin: var(--m-o);
+        -webkit-mask-clip: var(--m-o);
+        mask-clip: none;
+        mask-composite: exclude;
+        -webkit-mask-composite: destination-out;
+        filter: hue-rotate(0);
+        animation: rotate-hue linear 500ms infinite;
+        animation-play-state: paused;
     }
-    
+
+
+
+    .button-container .button4:nth-child(1) {
+        margin-left: 1rem;
+    }
+
     .button-container .button4:nth-child(2) {
-        margin-right: 2rem;
-    
+        margin-right: 1rem;
+
+
     }
 
     .proje1:hover {
         height: 18rem;
         position: relative;
         transition: 0.5s;
-        width:50rem;
+        width: 100rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(https://user-images.githubusercontent.com/104698942/205792532-9cf64561-e1e5-4f5f-8b27-b152a31e0e19.svg);
     }
-    
+
     .proje2:hover {
         height: 18rem;
         position: relative;
         transition: 0.5s;
-        width:50rem;
-        background-image: url();
+        width: 100rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(https://user-images.githubusercontent.com/104698942/205791409-66cec37f-f766-4c95-919c-8c7a20aa11fc.svg);
     }
-    
+
     .proje3:hover {
         height: 18rem;
         position: relative;
         transition: 0.5s;
-        width:50rem;
+        width: 120rem;
+        background-image: url(https://user-images.githubusercontent.com/104698942/205792075-53570c0e-d0c5-4dd9-9f56-eefefb215582.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
+
+    #section3 {
+        height: 45rem;
+        transform: translateY(140%);
+    }
+
+    .card:hover .pcard {
+        display: none;
+        transition: 1s;
+        
+    }
+
+
 }
