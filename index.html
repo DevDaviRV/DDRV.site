@@ -10,7 +10,7 @@
     <link href="css/preload.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/lightDark.css" rel="stylesheet">
-    <link href="css/mediaqueries.css"  rel="stylesheet" >
+    <link href="css/mediaqueries.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/Design sem nome (41).svg">
     <script defer src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
@@ -30,7 +30,7 @@
             <span class="spinner-part-3"></span>
         </div>
     </div>
-    <div class="contentP">
+    
         <div id="ancora-inicio"></div>
         <header id="head">
             <nav>
@@ -38,7 +38,6 @@
                 <div id="navMenu">
                     <a class="linksNav tt" href="#ancora-inicio">Ínicio</a>
                     <a class="linksNav tt" href="#section2">Sobre</a>
-
                     <a class="linksNav tt" href="#section4">Habilidades</a>
                     <a class="linksNav tt" href="#section3">Projetos</a>
                     <a class="linksNav tt" href="">Experiência</a>
@@ -60,9 +59,16 @@
                     </div>
                 </div>
             </nav>
+            <nav id="modalContato" style="display:none ;">
+                <a class="" href="#ancora-inicio">Ínicio</a>
+                <a class="" href="#section2">Sobre</a>
+                <a class="" href="#section4">Habilidades</a>
+                <a class="" href="#section3">Projetos</a>
+                <a class="" href="">Experiência</a>
+            </nav>
         </header>
         <main>
-            <section id="headline">
+            <section onselectstart="return false" id="headline">
                 <h1 id="headline-h1" class="tt">De vida a sua marca e empresa com <span class="headline-span">Sites
                         Profissionais</span> de
                     forma linda, moderna e chamativa<span class="dot">.</span></h1>
@@ -73,19 +79,15 @@
                 <input value="Contate-me" type="submit" onclick="abrirContatos()" class="headline-btn"></input>
             </section>
             <aside>
-                <img id="img-aside"
-                    src="assets/aside2.svg"
-                    alt="img Aside">
+                <img id="img-aside" src="assets/aside2.svg" alt="img Aside">
             </aside>
         </main>
 
-        <section id="section2">
+        <section onselectstart="return false" id="section2">
             <h2 id="sec2-h2" class="tt">Sobre mim<span class="dot">.</span></h2>
             <div class="sobremim">
                 <div id="img-about">
-                    <img id="img-gif"
-                        src="assets/avatar_1669786827718.svg"
-                        alt="Foto Pessoal">
+                    <img id="img-gif" src="assets/avatartop.svg" alt="Foto Pessoal">
                     <img class="icons-about i1"
                         src="https://user-images.githubusercontent.com/104698942/204721350-76c6ff26-e4a7-44fb-90b9-2bee49db2a63.png"
                         alt="icon coding">
@@ -99,8 +101,8 @@
                         src="https://user-images.githubusercontent.com/104698942/204727757-cc2f92ac-6d74-4245-94ce-62e771b41fff.png"
                         alt="icon SEO and Design">
                 </div>
-                <p class="sec2-p tt">Olá sou o <a href="https://www.instagram.com/dev_davirv/"><span
-                            class="headline-span">Dev_DaviRV</span></a>, Desenvolvedor Web e entusiasta WEB3, a mais de
+                <p class="sec2-p tt">Olá sou o <a href="https://www.instagram.com/dev_davirv/">
+                    <span class="headline-span">Dev_DaviRV</span></a>, Desenvolvedor Web e entusiasta WEB3, a mais de
                     1
                     ano trazendo<br> empresas
                     para o digital, criando sites e sistemas para facilitar os processos da sua empresa<span
@@ -125,16 +127,16 @@
                                 </path>
                             </svg>
                         </div>
-                        <h1 class="title">Desenvolvimento </h1>
+                        <h1 class="title tt">Desenvolvimento </h1>
                     </div>
 
                     <div class="content">
-                        <p>
+                        <p class="tt">
                             Desenvolvo Sites profissionais e aplicações Web com foco na qualidade e performance<span
                                 class="dot">.</span>
                         </p>
 
-                       
+
                     </div>
                 </div>
                 <div class="card2">
@@ -147,16 +149,16 @@
                                 </path>
                             </svg>
                         </div>
-                        <h1 class="title">UI Design</h1>
+                        <h1 class="title tt">UI Design</h1>
                     </div>
 
                     <div class="content">
-                        <p>
+                        <p class="tt">
                             Crio interfaces modernas e objetivas, que prendem o usuário ate o final <span
                                 class="dot">.</span>
                         </p>
 
-                        
+
                     </div>
                 </div>
                 <div class="card2">
@@ -169,16 +171,16 @@
                                 </path>
                             </svg>
                         </div>
-                        <h1 class="title">SEO</h1>
+                        <h1 class="title tt">SEO</h1>
                     </div>
 
                     <div class="content">
-                        <p>
+                        <p class="tt">
                             Projetos com o objetivo de melhorar o ranqueamento do seu site nos mecanismos de busca,
                             tendo mais visibilidade.<span class="dot">.</span>
                         </p>
 
-                        
+
                     </div>
                 </div>
             </div>
@@ -217,13 +219,13 @@
             <h3 id="sec3-h3" class="tt">Conheça alguns trabalhos <span class="dot"> :</span></h3>
             <div id="projetos">
                 <div class=" card projetos-box proje1">
-                    <p>Gestão de Clínica</p></img>
+                    <p class="pcard">Gestão de Clínica</p>
                 </div>
                 <div class=" card projetos-box proje2">
-                    <p>lorem ipsum</p></img>
+                    <p class="pcard">Sites Completos</p>
                 </div>
                 <div class=" card projetos-box proje3">
-                    <p>lorem ipsum</p></img>
+                    <p class="pcard">SaaS</p>
                 </div>
             </div>
             <a id="linkGit" href="https://github.com/DevDaviRV">
@@ -249,22 +251,22 @@
 
                 </p>
                 <div class="footer-icons">
-                    <a class="fa-instagram tt" href="https://www.instagram.com/dev_davirv/"><i class="fa "></i></a>
-                    <a class="fa-linkedin tt" href="https://www.linkedin.com/in/devdavirv/"><i class="fa "></i></a>
-                    <a class="fa-twitter tt" href="https://twitter.com/dev_davirv"><i class="fa "></i></a>
-                    <a class="fa-email tt" href="mailto:dev.davirv01@gmail.com"><i class="fa "></i></a>
+                    <a class="fa-instagram" href="https://www.instagram.com/dev_davirv/"><i class="fa "></i></a>
+                    <a class="fa-linkedin" href="https://www.linkedin.com/in/devdavirv/"><i class="fa "></i></a>
+                    <a class="fa-twitter" href="https://twitter.com/dev_davirv"><i class="fa "></i></a>
+                    <a class="fa-email" href="mailto:dev.davirv01@gmail.com"><i class="fa "></i></a>
                 </div>
                 <p class="Copyright tt">Copyright &copy; 2022<a href="#"><span class="dot"> DevDaviRV.dev </span></a>-
                     Todos os Direitos Reservados.</p>
             </div>
-            <!--esquerda-->
+            <!--Left-->
             <div class="right">
                 <h4 class="title-footer tt">Fale Comigo <span class="dot">:</span></h4>
                 <form action="https://formspree.io/f/myyvalge" method="post">
-                    <input type="text" name="nome" placeholder="Qual é seu nome?" required="" />
-                    <input type="email" name="email" placeholder="E o seu E-mail?" required="" />
-                    <input type="text" name="assunto" placeholder="Qual o assunto?" required="" />
-                    <textarea name="messagem" placeholder="Deixe sua mensagem..." required=""></textarea>
+                    <div class="caret"><input type="text" name="nome" placeholder="Qual é seu nome?" required="" /></div>
+                    <div class="caret"><input type="email" name="email" placeholder="E o seu E-mail?" required="" /></div>
+                    <div class="caret"><input type="text" name="assunto" placeholder="Qual o assunto?" required="" /></div>
+                    <div class="caret"><textarea name="messagem" placeholder="Deixe sua mensagem..." required=""></textarea></div>
                     <button type="submit" id="btn-form">
                         <div class="svg-wrapper-1">
                             <div class="svg-wrapper">
@@ -280,9 +282,9 @@
                     </button>
                 </form>
             </div>
-            <!--direita-->
+            <!--Right-->
         </footer>
-    </div>
+    
     <script src="preload.js"></script>
     <script src="script.js"></script>
 
