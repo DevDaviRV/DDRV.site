@@ -1,4 +1,4 @@
-@media screen and (max-width : 1300px) {
+@media screen and (max-width : 1500px) {
 
     * {
         margin: 0;
@@ -341,4 +341,276 @@
     }
 
 
+}
+
+@media screen and (max-width : 577px) {
+    #logoImg {
+        margin: 0;
+        margin-top: 1rem;
+        margin-right: 12rem;
+        display: flex;
+    }
+
+    MAIN {
+        margin: 0;
+        margin-top: 8rem;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+
+    #img-aside {
+        width:15rem ;
+        height: 13rem;        
+        left: 5rem;
+        top: 37rem;
+    }
+
+    #sobremim {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-gif {
+        height: 15rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        
+    }
+
+    .sec2-p {
+        position: absolute;
+        margin-top: 20rem;
+        letter-spacing: 0rem;
+        line-height: 1.5rem;
+    }
+
+    .i1 {
+        top: -14rem;
+        left: 15.5rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .i2 {
+        top: -14rem;
+        left: -4rem;
+        width: 4.4rem;
+        height: 4.4rem;
+        
+    }
+
+    .i3 {
+        top: -9rem;
+        left: 4.5rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .i4 {
+        top: -9rem;
+        left: 8rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .button-container .btn1:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(200%, 200%);
+    width: 3rem;
+    height: 3rem;
+    background: #9900ff;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    
+    z-index: 99;
+}
+
+.button-container .btn2:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, 200%);
+    width: 3rem;
+    height: 3rem;
+    background: #9900ff;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    
+    z-index: 99;
+}
+
+.button-container .button4:nth-child(1) {
+    float: left;
+}
+
+.button-container .button4:nth-child(2) {
+    float: right;
+
+}
+
+.content p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    height: 90rem;
+    transform: translateY(70%);
+    
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;   
+}
+
+.proje1:hover {
+    height: 18rem;
+    position: relative;
+    transition: 0.5s;
+    width: 98%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://user-images.githubusercontent.com/104698942/205792532-9cf64561-e1e5-4f5f-8b27-b152a31e0e19.svg);
+}
+
+.proje2:hover {
+    height: 20rem;
+    position: relative;
+    transition: 0.5s;
+    width: 98%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://user-images.githubusercontent.com/104698942/205791409-66cec37f-f766-4c95-919c-8c7a20aa11fc.svg);
+}
+
+.proje3:hover {
+    height: 18rem;
+    position: relative;
+    transition: 0.5s;
+    width: 98%;
+    background-image: url(https://user-images.githubusercontent.com/104698942/205792075-53570c0e-d0c5-4dd9-9f56-eefefb215582.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.card:hover .pcard {
+    display: none;
+    transition: 1s;
+    
+}
+
+
+}
+@media screen and (min-width : 427px) and (max-width : 500px) {
+    #logoImg {
+        margin-right: 15rem;
+    }
+    #img-aside {
+        left: 6rem; 
+    }
+    #img-gif {   
+        margin-left: 5.8rem;
+        margin-top: 2rem;  
+    }
+    .i1 {
+        top: -13.5rem;
+        left: 17rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .i2 {
+        top: -14rem;
+        left: -3rem;
+        width: 4.4rem;
+        height: 4.4rem;
+        
+    }
+
+    .i3 {
+        top: -3rem;
+        left: 0rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .i4 {
+        top: -7rem;
+        left: 6rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+}
+@media screen and (max-width : 376px) {
+    #img-aside {
+        
+        width:12rem ;
+        height: 10rem;        
+        left: 5.5rem;
+        top: 41rem;
+    }
+    main {
+        margin-top: 6rem;
+    }
+    .sec2-p {
+        width: 20rem;
+        margin-left: 2rem;
+        text-align: center;
+        letter-spacing: 0rem;
+    }
+    #img-gif {
+        
+        margin-left: 4rem;
+        margin-top: 2rem;   
+    }
+    .i1 {
+        top: -13rem;
+        left: 15.5rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .i2 {
+        top: -13rem;
+        left: -6rem;
+        width: 4.4rem;
+        height: 4.4rem;
+        
+    }
+
+    .i3 {
+        top: -8rem;
+        left: 4rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .i4 {
+        top: -9rem;
+        left: 7rem;
+        width: 4rem;
+        height: 4rem;
+        
+    }
+    
 }
