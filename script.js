@@ -234,32 +234,6 @@ const slider = document.querySelector(".items");
             cardbg3.style.background = ''
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Tentanto achar uma forma desaparecer pcard quando onmouseover em qualquer dos Card
 
     //  function sumir(){
@@ -278,6 +252,55 @@ const slider = document.querySelector(".items");
     // var p = document.querySelector('#sec3-h2');
     // posicoes = p.getBoundingClientRect();
     // console.log(posicoes);
+ 
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
