@@ -253,9 +253,15 @@ const slider = document.querySelector(".items");
     // posicoes = p.getBoundingClientRect();
     // console.log(posicoes);
  
-    
+    let abrirModal = document.getElementById('btn-Omodal')
+    let modalcontent = document.getElementById('modalContato')
+function openModal() {
+    modalcontent.style.top = '0'
+}
 
-    
+function fecharModal() {
+    modalcontent.style.top = '-100%'
+}
 
 
 
