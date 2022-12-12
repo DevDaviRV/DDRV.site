@@ -68,7 +68,29 @@ nav {
 
 /* Modal NavMenu */
 
+#modalContato {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    right: -100%;
+    transition: 350ms;
+    
+}
 
+#modalContato a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
 
 
 
@@ -410,7 +432,7 @@ h1 {
     content: "";
     position: absolute;
     inset: 0.1rem;
-    background-image: url(assets/logo\ alternativo.png);
+    background-image: url(assets1/logo\ alternativo.png);
     
     
 }
@@ -419,14 +441,14 @@ h1 {
     content: "";
     position: absolute;
     inset: 0.1rem;
-    background-image: url(assets/logo\ alternativo.png);
+    background-image: url(assets1/logo\ alternativo.png);
     
 }
 .proje3:hover::after {
     content: "";
     position: absolute;
     inset: 0.1rem;
-    background-image: url(assets/logo\ alternativo.png);
+    background-image: url(assets1/logo\ alternativo.png);
     
 }
 .projetos-box img {
