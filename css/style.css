@@ -68,29 +68,7 @@ nav {
 
 /* Modal NavMenu */
 
-#modalContato {
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    margin: auto;
-    flex-direction: column;
-    gap: 3rem;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-    top: -100%;
-    transition: 350ms;
-    
-}
 
-#modalContato a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 2rem;
-    
-}
 
 
 
