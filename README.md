@@ -36,8 +36,6 @@ Ainda incompleto...🖥⏰
 
 - Adicionar mais Páginas
 
-- Trabalhar a Responsividade
-
 - Avaliar Performance
 
 - Realizar Testes
