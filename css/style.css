@@ -66,6 +66,64 @@ nav {
 
 }
 
+/* Menu hamburuer para mobile */
+input[type = "checkbox"] {
+    
+    display: none;
+    visibility: hidden;
+  }
+  
+  .bar {
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    display: none;
+  }
+  
+  .bar span {
+    position: absolute;
+    width: 45px;
+    height: 7px;
+    background: #f1faee;
+    border-radius: 100px;
+    display: inline-block;
+    transition: 0.3s ease;
+    left: 0;
+  }
+  
+  .bar span.top {
+    top: 0;
+  }
+  
+  .bar span.middle {
+    top: 17px;
+  }
+  
+  .bar span.bottom {
+    bottom: 0;
+  }
+  
+  input[type]:checked ~ span.top {
+    transform: rotate(45deg);
+    transform-origin: top left;
+    width: 48px;
+    left: 5px;
+  }
+  
+  input[type]:checked ~ span.bottom {
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    width: 48px;
+    bottom: -1px;
+    box-shadow: 0 0 10px #495057;
+  }
+  
+  input[type]:checked ~ span.middle {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+
 /* Modal NavMenu */
 
 #modalContato {
@@ -82,6 +140,7 @@ nav {
     background: #000000;
     right: -100%;
     transition: 350ms;
+    display: none;
     
 }
 
