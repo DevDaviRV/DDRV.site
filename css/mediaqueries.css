@@ -131,13 +131,56 @@
         text-align: center;
     }
 
+    /* Modal NavMenu */
+
+#modalContato {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    right: -100%;
+    transition: 350ms;
+    display: none;
     
+}
+
+#modalContato a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    text-shadow: 0.01rem 0rem 0.1rem; 
+
+    
+}
 
     #navMenu {
         display: none;
     }
 
-    
+    #modalContato {
+        display: flex;
+        
+    }
+
+    #modalContato .toggle {
+        position: absolute;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+    .bar {
+        display: block;
+        position: fixed;
+        top: 1.8rem;
+        right: 2rem;
+    }
 
 
     #logoImg {
@@ -534,7 +577,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(https://user-images.githubusercontent.com/104698942/205791409-66cec37f-f766-4c95-919c-8c7a20aa11fc.svg);
+    background-image: url(https://user-images.githubusercontent.com/104698942/207024153-de6ce790-42bb-42bf-a7f9-6576032be155.png);
 }
 
 .proje3:hover {
@@ -634,6 +677,7 @@
     }
     main {
         margin-top: 6rem;
+        
     }
     .sec2-p {
         width: 20rem;
