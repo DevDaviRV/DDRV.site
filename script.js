@@ -118,6 +118,9 @@ const slider = document.querySelector(".items");
     let cardbg2 = document.getElementsByClassName('card')[1];
     let cardbg3 = document.getElementsByClassName('card')[2];
 
+    let bgModal = document.getElementById('modalContato');
+     
+
     function changeBg1() {
         if(inp.checked == true){
             body.style.background = '#eaf4f4'
@@ -178,6 +181,9 @@ const slider = document.querySelector(".items");
             cardbg2.style.background = 'white'
             cardbg3.style.background = 'white'
 
+            bgModal.style.background = 'white'
+            bgModal.style.color = 'black'
+
 
 
         }else{
@@ -232,6 +238,9 @@ const slider = document.querySelector(".items");
             cardbg1.style.background = ''
             cardbg2.style.background = ''
             cardbg3.style.background = ''
+
+            bgModal.style.background = ''
+            bgModal.style.color = ''
         }
     }
 // Tentanto achar uma forma desaparecer pcard quando onmouseover em qualquer dos Card
@@ -253,15 +262,18 @@ const slider = document.querySelector(".items");
     // posicoes = p.getBoundingClientRect();
     // console.log(posicoes);
  
-    let abrirModal = document.getElementById('btn-Omodal')
+    let inputNav = document.getElementById('check')
     let modalcontent = document.getElementById('modalContato')
 function openModal() {
-    modalcontent.style.top = '0'
+    if(inputNav.checked == true){
+        modalcontent.style.right = '0'
+    }else{
+        modalcontent.style.right = '-100%'
+    }
+    
 }
 
-function fecharModal() {
-    modalcontent.style.top = '-100%'
-}
+
 
 
 
