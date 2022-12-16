@@ -290,13 +290,15 @@
 
     }
 
-
+    #projetos {
+        gap: 1rem;
+}
 
     .card {
         text-align: center;
         transition: 0.5s;
-        justify-content: center;
-        align-items: center;
+        
+        
         margin: 0.2rem;
         margin-top: 3rem;
         margin-bottom: 2rem;
@@ -392,7 +394,20 @@
 
 @media screen and (max-width : 577px) {
     
-.card {
+    #cards-habilidade {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .card2 {
+        margin: auto;
+        padding: 0;
+        gap: 0rem;
+    }
+
+
+    .card {
         display: flex;
         flex-direction: row;
         gap: 10rem;
@@ -559,32 +574,34 @@
 }
 
 .proje1:hover {
-    height: 18rem;
+    height: 20rem;  
     position: relative;
     transition: 0.5s;
-    width: 98%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(https://user-images.githubusercontent.com/104698942/205792532-9cf64561-e1e5-4f5f-8b27-b152a31e0e19.svg);
-}
-
-.proje2:hover {
-    height: 20rem;
-    position: relative;
-    transition: 0.5s;
-    width: 98%;
+    width: 95%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(https://user-images.githubusercontent.com/104698942/207024153-de6ce790-42bb-42bf-a7f9-6576032be155.png);
+    
+}
+
+.proje2:hover {
+    height: 18rem;
+    position: relative;
+    transition: 0.5s;
+    width: 95%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://user-images.githubusercontent.com/104698942/205792532-9cf64561-e1e5-4f5f-8b27-b152a31e0e19.svg);
+    
 }
 
 .proje3:hover {
     height: 18rem;
     position: relative;
     transition: 0.5s;
-    width: 98%;
+    width: 95%;
     background-image: url(https://user-images.githubusercontent.com/104698942/205792075-53570c0e-d0c5-4dd9-9f56-eefefb215582.svg);
     background-size: contain;
     background-position: center;
