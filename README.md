@@ -1,7 +1,7 @@
 
 # Portifólio Dev_DaviRV
 
-WebSite Portifólio feito divulgar meu trabalho e experiência como desenvolvedor.
+WebSite Portifólio para agência de sites, feito divulgar meu trabalho e experiência como desenvolvedor.(Freelancer)
 
 <!-- ## Screenshots
 
@@ -10,7 +10,7 @@ WebSite Portifólio feito divulgar meu trabalho e experiência como desenvolvedo
 
 ## Stack utilizada
 
-**Front-end:** HTML5 CSS3 JAVASCRIPT
+**Front-end:** HTML5 CSS3 JAVASCRIPT BOOTSTRAP
 
 **API's:** ScrollReveal TypeIt.js Formspree
 
