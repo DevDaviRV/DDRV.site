@@ -124,6 +124,7 @@ const slider = document.querySelector(".items");
     function changeBg1() {
         if(inp.checked == true){
             body.style.background = '#eaf4f4'
+            // body.style.background = 'linear-gradient(90deg, rgba(88,175,255,1) 0%, rgba(0,241,255,1) 90%)'
             head.style.border = 'none'
             head.style.background = 'rgb(3,228,255)'
             head.style.background = 'linear-gradient(80deg, rgba(3,228,255,0.969625350140056) 0%, rgba(181,9,255,1) 83%)'
@@ -242,6 +243,24 @@ const slider = document.querySelector(".items");
             bgModal.style.color = ''
         }
     }
+// Tentanto achar uma forma desaparecer pcard quando onmouseover em qualquer dos Card
+
+    //  function sumir(){
+    //   if(onmouseover == true){
+    //   mmm.style.visibility = 'hidden'
+    //   mmm2.style.visibility = 'hidden'
+    //   mmm3.style.visibility = 'hidden'
+    // }}
+    // function aparecer() {
+    //   mmm.style.visibility = 'visible'
+    //   mmm2.style.visibility = 'visible'
+    //   mmm3.style.visibility = 'visible'
+    // }
+
+// Ver posição do elemtento na pagina (ex: TOP)
+    // var p = document.querySelector('#sec3-h2');
+    // posicoes = p.getBoundingClientRect();
+    // console.log(posicoes);
  
     let inputNav = document.getElementById('check')
     let modalcontent = document.getElementById('modalContato')
@@ -253,6 +272,14 @@ function openModal() {
     }
     
 }
+
+    let closemodal = document.getElementsByClassName('cm')[0];
+    let disableInp = document.getElementById('check')
+    function closeModal() {
+        disableInp.removeAttribute('checked');
+        modalcontent.style.right = '-100%'
+        
+    }
 
 
 
