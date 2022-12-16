@@ -123,6 +123,7 @@ input[type = "checkbox"] {
     transform: translateX(-20px);
     opacity: 0;
   }
+  
 
 /* Modal NavMenu */
 
@@ -445,6 +446,10 @@ h1 {
     position: relative;
     transition: 0.5s;
     width: 23rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://user-images.githubusercontent.com/104698942/207024153-de6ce790-42bb-42bf-a7f9-6576032be155.png);
 }
 
 .proje2:hover {
@@ -452,7 +457,10 @@ h1 {
     position: relative;
     transition: 0.5s;
     width: 23rem;
-    background-image: url();
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://user-images.githubusercontent.com/104698942/205792532-9cf64561-e1e5-4f5f-8b27-b152a31e0e19.svg);
 }
 
 .proje3:hover {
@@ -460,6 +468,16 @@ h1 {
     position: relative;
     transition: 0.5s;
     width: 23rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://user-images.githubusercontent.com/104698942/205792075-53570c0e-d0c5-4dd9-9f56-eefefb215582.svg);
+}
+
+.card:hover .pcard {
+    display: none;
+    transition: 1s;
+    
 }
 
 /* .projetos-box:hover::before {
