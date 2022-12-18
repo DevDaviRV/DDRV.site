@@ -191,6 +191,7 @@ input[type = "checkbox"] {
 
 }
 
+
 /* conteudo principal */
 main {
 
@@ -361,9 +362,11 @@ h1 {
     color: #ffffff;
     font-size: 1.2rem;
     margin-top: 5rem;
-    margin-left: 8rem;
+    margin-left: 6rem;
     letter-spacing: 0.05rem;
     line-height: 1.5rem;
+    text-align: justify;
+    width: 50rem;
 }
 
 .sobremim {
@@ -372,6 +375,17 @@ h1 {
 }
 
 /* Sessao dos projetos e tech's */
+
+#text-service {
+    background-color: #09090B;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    width: 45rem;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
 
 #section3 {
     height: 45rem;
