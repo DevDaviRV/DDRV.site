@@ -348,6 +348,15 @@
 
     }
 
+    .container-btn {
+    
+        transform: translateY(60rem);
+        text-align: center;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .proje1:hover {
         height: 18rem;
         position: relative;
@@ -416,6 +425,15 @@
         margin: 2rem;
         margin-top: 3rem;
         margin-bottom: 2rem;
+    }
+
+    .container-btn {
+    
+        transform: translateY(58rem);
+        text-align: center;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     body {
