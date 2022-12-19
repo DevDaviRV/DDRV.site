@@ -32,7 +32,7 @@ Ainda incompleto...🖥⏰
 
 ## Roadmap
 
-- Melhorar o suporte de navegadores
+- Finalizar alterações do portifólio
 
 - Adicionar mais Páginas
 
