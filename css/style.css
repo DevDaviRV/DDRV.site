@@ -387,8 +387,9 @@ h1 {
 
 /* Sessao dos projetos e tech's */
 
+
 #text-service {
-    background-color: #09090B;
+    background: #09090B;
     margin: auto;
     margin-top: 4rem;
     padding: 2rem;
