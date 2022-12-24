@@ -32,7 +32,7 @@ Ainda incompleto...🖥⏰
 
 ## Roadmap
 
-- Finalizar alterações do portifólio
+- Alterar textos base
 
 - Adicionar mais Páginas
 
