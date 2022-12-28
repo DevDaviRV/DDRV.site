@@ -12,8 +12,7 @@
 	float: left;
 	font-size:1.125rem;
 	padding: 3.125rem 0.625rem 1.125rem 0.625rem;
-    transform: translateY(140%);
-	
+    	transform: translateY(140%);	
 }
 .footer .left{ 
 	width:100%; 
@@ -21,8 +20,7 @@
 	border-bottom:0.063rem #222424 solid;
 	border-right:0; 
 	margin-bottom:1.25rem; 
-    padding-bottom:1.25rem;
-	
+    	padding-bottom:1.25rem;	
 }
 
 .Copyright {
@@ -32,25 +30,27 @@
 	color: #ffffff;
 	font-family: 'DM Sans', sans-serif;
 	font-weight: initial;
-    font-size:1.625rem;
-    width:100%;
-    float:left;
-    margin-bottom:0.938rem;
+    	font-size:1.625rem;
+    	width:100%;
+    	float:left;
+    	margin-bottom:0.938rem;
 }
+
 .footer .title-footer span{
 	color:  #b509ff;
 	font-family:'DM Sans', sans-serif;
 	font-weight: bold;
 }
+
 /* Footer links */
 .footer .links{
-	
 	width: 100%;
 	float: left;
 	color:  #ffffff;
 	margin-bottom: 1.25rem;
 	padding: 0;
 }
+
 .footer .links a{
     display: block;
     line-height: 2.063rem;
@@ -67,19 +67,16 @@
 	font-family:'DM Sans', sans-serif;
 	color:  #8f9296;
 	font-size: 0.875rem;
-	font-weight: normal;
-	
-    
+	font-weight: normal;  
 }
+
 /*Rede Sociais*/
 .footer .footer-icons{
-	
 	width:100%;
 	float:left;
 	margin-bottom:1.25rem;
-    
-    
 }
+
 .footer .footer-icons a{
 	display: inline-block;
 	width:2.188rem;
@@ -96,9 +93,9 @@
 	margin-bottom: 0.313;
 	transition:0.3s;
 }
+
 .footer .footer-icons .fa-instagram{
-    background-image:url(https://cdn-icons-png.flaticon.com/512/3955/3955024.png) ;
-    
+    background-image:url(https://cdn-icons-png.flaticon.com/512/3955/3955024.png) ;  
 }
 .footer .footer-icons .fa-linkedin{
     background-image:url(https://cdn-icons-png.flaticon.com/512/4494/4494497.png) ;
