@@ -26,7 +26,6 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Archivo', sans-serif;
-
 }
 
 a {
@@ -63,13 +62,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-
 }
 
 /* Menu hamburuer para mobile */
 input[type="checkbox"] {
-
     display: none;
     visibility: hidden;
 }
@@ -143,14 +139,12 @@ input[type]:checked~span.middle {
     right: -100%;
     transition: 350ms;
     display: none;
-
 }
 
 #modalContato a {
     color: #ffffff;
     text-decoration: none;
     font-size: 2rem;
-
 }
 
 
