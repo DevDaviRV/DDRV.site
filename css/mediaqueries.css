@@ -156,8 +156,7 @@
     }
 
     #modalContato {
-        display: flex;
-        
+        display: flex; 
     }
 
     #modalContato .toggle {
@@ -173,15 +172,12 @@
         right: 2rem;
     }
 
-
     #logoImg {
         margin: 0;
-
         margin-top: 1rem;
         margin-right: 32rem;
         display: flex;
         justify-content: flex-start;
-
     }
 
     #headline-h1 {
@@ -278,12 +274,11 @@
         margin-top: 2rem;
         padding: 1rem;
         flex-wrap: wrap;
-
     }
 
     #projetos {
         gap: 1rem;
-}
+    }
 
     .card {
         text-align: center;
