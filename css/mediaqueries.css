@@ -28,8 +28,6 @@
         margin-left: 5rem;
     }
 
-    
-
     #img-aside {
         width: 25rem;
         height: 25rem;
@@ -50,7 +48,6 @@
         justify-content: center;
         align-items: center;
     }
-
 
     .i1 {
         top: -30rem;
@@ -90,7 +87,6 @@
     .card2 {
         margin: 2rem;
         margin-top: .5rem;
-
     }
 
     .card {
@@ -107,8 +103,6 @@
 
 @media screen and (max-width : 769px) {
 
-    
-    
     * {
         margin: 0;
         padding: 0;
@@ -147,18 +141,15 @@
     background: #000000;
     right: -100%;
     transition: 350ms;
-    display: none;
-    
-}
+    display: none;  
+   }
 
 #modalContato a {
     color: #ffffff;
     text-decoration: none;
     font-size: 2rem;
-    text-shadow: 0.01rem 0rem 0.1rem; 
-
-    
-}
+    text-shadow: 0.01rem 0rem 0.1rem;   
+   }
 
     #navMenu {
         display: none;
