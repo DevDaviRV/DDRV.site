@@ -201,7 +201,6 @@ h1 {
 #headline {
     width: 48rem;
     height: 10rem;
-
 }
 
 .dot {
@@ -214,7 +213,6 @@ h1 {
 
 .headline-span {
     color: #b509ff;
-
 }
 
 .headline-p {
@@ -244,8 +242,6 @@ h1 {
     box-shadow: 0.5rem 0.5rem 0.5rem #9900ff;
 }
 
-
-
 #img-aside {
     width: 42rem;
     height: 40rem;
@@ -253,8 +249,6 @@ h1 {
     position: absolute;
     transform: translateY(-25%);
     border-radius: 50%;
-
-
 }
 
 /* Sessao sobre mim */
@@ -264,8 +258,6 @@ h1 {
     width: 100%;
     height: 45rem;
     transform: translateY(125%);
-
-
 }
 
 #img-gif {
@@ -279,8 +271,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 #img-gif:hover {
@@ -294,8 +284,6 @@ h1 {
     width: 5rem;
     height: 5rem;
     margin-right: 4rem;
-
-
 }
 
 .i1 {
