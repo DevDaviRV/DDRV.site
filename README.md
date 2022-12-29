@@ -32,10 +32,6 @@ Ainda incompleto...🖥⏰
 
 ## Roadmap
 
-- Alterar textos base
-
-- Adicionar mais Páginas
-
 - Avaliar Performance
 
 - Realizar Testes
