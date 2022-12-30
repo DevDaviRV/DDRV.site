@@ -32,9 +32,10 @@ Ainda incompleto...🖥⏰
 
 ## Roadmap
 
-- Avaliar Performance
 
 - Realizar Testes
+
+- Preparar para Lançamento
 
 - Em breve...
 
