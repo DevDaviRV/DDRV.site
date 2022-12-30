@@ -11,7 +11,7 @@
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/lightDark.css" rel="stylesheet">
     <link href="css/mediaqueries.css" rel="stylesheet">
-    <link rel="shortcut icon" href="assets1/Design sem nome (41).svg">
+    <link rel="shortcut icon" href="assets1/logonavegador.jpg">
     <script defer src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
 </head>
@@ -33,9 +33,10 @@
     <div id="ancora-inicio"></div>
     <header id="head">
         <nav>
-            <img id="logoImg" src="assets1/Novo_Projeto__1_-removebg-preview.svg" alt="Logo Marca">
+            <img id="logoImg" src="assets1/logomain.svg" alt="Logo Marca">
             <label for="check" class="bar">
                 <input onchange="openModal()" id="check" type="checkbox">
+
                 <span class="top"></span>
                 <span class="middle"></span>
                 <span class="bottom"></span>
@@ -68,9 +69,10 @@
         <nav id="modalContato">
             <a onclick="closeModal()" class="cm" href="#ancora-inicio">Ínicio</a>
             <a onclick="closeModal()" class="cm" href="#section2">Sobre</a>
-            <a onclick="closeModal()" class="cm" href="#section4">Habilidades</a>
+            <a onclick="closeModal()" class="cm" href="#section4">Serviços</a>
             <a onclick="closeModal()" class="cm" href="#section3">Projetos</a>
             <a class="" href="pagePortifolio/index.html">Portifólio</a>
+
         </nav>
     </header>
     <main>
@@ -120,9 +122,11 @@
             <h3 id="testjs" class="tt">O que oferecemos<span class="dot"> :</span></h3>
         </div>
         <div id="bgtext">
-        <div id="text-service" class="tt">Ao escolher a nossa empresa, você pode esperar qualidade e excelência em design e
-            desenvolvimento.
-            A <span class="dot">DDRV - StudioTech</span> trabalha em estreita colaboração com nossos clientes. </div>
+            <div id="text-service" class="tt">Ao escolher a nossa empresa, você pode esperar qualidade e excelência em
+                design e
+                desenvolvimento.
+                A <span class="dot">DDRV - StudioTech</span> trabalha em estreita colaboração com nossos clientes.
+            </div>
         </div>
         <div onselectstart="return false" id="cards-habilidade">
             <div class="card2">
@@ -143,6 +147,8 @@
                         Desenvolvo Sites profissionais e aplicações Web com foco na qualidade e performance<span
                             class="dot">.</span>
                     </p>
+
+
                 </div>
             </div>
             <div class="card2">
@@ -163,6 +169,8 @@
                         Crio interfaces modernas e objetivas, que prendem o usuário ate o final <span
                             class="dot">.</span>
                     </p>
+
+
                 </div>
             </div>
             <div class="card2">
@@ -186,10 +194,12 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <div class="container-btn">
-        <a href="https://api.whatsapp.com/send?phone=5535997302235&text=Ola%2C%20vim%20pelo%20Site%2C%20desejo%20fazer%20um%20orcamento.">
+        <a
+            href="https://api.whatsapp.com/send?phone=5535997302235&text=Ola%2C%20vim%20pelo%20Site%2C%20desejo%20fazer%20um%20orcamento.">
             <p class="glitch">
                 <span aria-hidden="true">Desejo Contratar</span>
                 Desejo Contratar
@@ -223,6 +233,92 @@
             </button>
         </a>
     </section>
+    <section id="section5">
+        <div class="table-main">
+            <h2 class="title-table1 tt">FAQ<span class="dot">:</span></h2>
+            <h3 class="title-table2 tt">Perguntas frequentes:</h3>
+            <div id="box-table">
+                
+                <div onselectstart="return false" id="cards-habilidade-faq">
+                    <div class="card-faq">
+                        <div class="header-faq">
+                            <h3 class="title-faq tt">Qual o prazo de entrega? </h3>
+                            <label class="container-faq">
+                                <input onclick="abrirTable()" id="opentable1" type="checkbox">
+                                <div class="line"></div>
+                                <div class="line line-indicator"></div>
+                            </label>
+                        </div>
+
+                        <div class="content-faq">
+                            <p class="text-table tt">
+                                O prazo de entrega é de 7 a 14 dias, variando de acordo com as necessidades colocadas.
+                            </p>
+
+
+                        </div>
+                    </div>
+                    <div class="card-faq">
+                        <div class="header-faq">
+                            <h3 class="title-faq tt">Entrei em contato e agora?</h3>
+                            <label class="container-faq">
+                                <input onclick="abrirTable()" id="opentable2" type="checkbox">
+                                <div class="line"></div>
+                                <div class="line line-indicator"></div>
+                            </label>
+                        </div>
+
+                        <div class="content-faq faqtt">
+                            <p class="text-table tt">
+                                Faremos uma reunião para entender as necessidades do seu projeto, após isso só aguardar
+                                a
+                                criação da Proposta/Orçamento. (Fique tranquilo, faremos o mais rápido e sem
+                                compromisso, sua
+                                satisfação vem em primeiro lugar!)
+                            </p>
+
+
+                        </div>
+                    </div>
+                    <div class="card-faq">
+                        <div class="header-faq">
+                            <h3 class="title-faq tt">Quais os planos de contratação?</h3>
+                            <label class="container-faq">
+                                <input onclick="abrirTable()" id="opentable3" type="checkbox">
+                                <div class="line"></div>
+                                <div class="line line-indicator"></div>
+                            </label>
+                        </div>
+
+                        <div class="content-faq faqtt">
+                            <p class="text-table tt">
+                                Existem 2 tipos de contratação: CODIGO FONTE - Entregamos o codigo fonte completo e
+                                pronto para
+                                edição. (<i>Hospedagem e Domínio não inclusos</i>). COMPLETO - Não se preocupe com nada,
+                                dessa
+                                forma te entregaremos o site finalizado e pronto para acessado(<i>Inclue Hospedagem e
+                                    Domínio</i>).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-faq">
+                        <div class="header-faq">
+                            <h3 class="title-faq tt">Como é o Suporte?</h3>
+                            <label class="container-faq">
+                                <input onclick="abrirTable()" id="opentable4" type="checkbox">
+                                <div class="line"></div>
+                                <div class="line line-indicator"></div>
+                            </label>
+                        </div>
+
+                        <div class="content-faq faqtt">
+                            <p class="text-table tt">
+                                Suporte Direto via WhatsApp para resolver suas necessidades o mais rápido possível.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
     <footer id="ancora-footer" class="footer">
         <div class="left">
@@ -244,7 +340,8 @@
             </div>
             <p class="Copyright tt">Copyright &copy; 2022<a href="#"><span class="dot"> DDRV - StudioTech </span></a>-
                 Todos os Direitos Reservados.</p>
-            <p class="Copyright tt">Desenvolvido por <a href="https://www.linkedin.com/in/devdavirv/"><span class="dot">DevDaviRV</span></a></p>
+            <p class="Copyright tt">Desenvolvido por <a href="https://www.linkedin.com/in/devdavirv/"><span
+                        class="dot">DevDaviRV</span></a></p>
             <p class="Copyright tt">Política de <span class="dot"><a href=""> Privacidade</a></span></p>
         </div>
         <!--Left-->
