@@ -102,6 +102,18 @@ const slider = document.querySelector(".items");
     let text26 = document.getElementsByClassName('tt')[25];
     let text27 = document.getElementsByClassName('tt')[26];
     let text28 = document.getElementsByClassName('tt')[27];
+    let text29 = document.getElementsByClassName('tt')[28];
+    let text30 = document.getElementsByClassName('tt')[29];
+    let text31 = document.getElementsByClassName('tt')[30];
+    let text32 = document.getElementsByClassName('tt')[31];
+    let text33 = document.getElementsByClassName('tt')[32];
+    let text34 = document.getElementsByClassName('tt')[33];
+    let text35 = document.getElementsByClassName('tt')[34];
+    let text36 = document.getElementsByClassName('tt')[35];
+    let text37 = document.getElementsByClassName('tt')[36];
+    let text38 = document.getElementsByClassName('tt')[37];
+    let text39 = document.getElementsByClassName('tt')[38];
+    let text40 = document.getElementsByClassName('tt')[39];
     let span = document.getElementsByClassName('');
     let nav = document.getElementById('navMenu');
     //input
@@ -117,9 +129,14 @@ const slider = document.querySelector(".items");
     let cardbg1 = document.getElementsByClassName('card')[0];
     let cardbg2 = document.getElementsByClassName('card')[1];
     let cardbg3 = document.getElementsByClassName('card')[2];
-
+    let textserv = document.getElementById('text-service');
+    let sec5 = document.getElementById('section5');
+    let boxtable = document.getElementById('box-table');
     let bgModal = document.getElementById('modalContato');
-     
+    let cardfaq1 = document.getElementsByClassName('card-faq')[0];
+    let cardfaq2 = document.getElementsByClassName('card-faq')[1];
+    let cardfaq3 = document.getElementsByClassName('card-faq')[2];
+    let cardfaq4 = document.getElementsByClassName('card-faq')[3];
 
     function changeBg1() {
         if(inp.checked == true){
@@ -138,6 +155,16 @@ const slider = document.querySelector(".items");
             cardsHab.style.background = 'white'
             cardsHab2.style.background = 'white'
             cardsHab3.style.background = 'white'
+
+            sec5.style.background = 'none'
+            boxtable.style.background = 'white'
+            cardfaq1.style.borderColor = '#b509ff'
+            cardfaq2.style.borderColor = '#b509ff'
+            cardfaq2.style.borderTop = 'none'
+            cardfaq2.style.borderBottom = 'none'
+            cardfaq3.style.borderColor = '#b509ff'
+            cardfaq3.style.borderBottom = 'none'
+            cardfaq4.style.borderColor = '#b509ff'
 
             text1.style.color = 'white'
             text2.style.color = 'white'
@@ -171,15 +198,30 @@ const slider = document.querySelector(".items");
             text26.style.color = 'black'
             text27.style.color = 'black'
             text28.style.color = 'black'
+            text29.style.color = 'black'
+            text30.style.color = 'black'
+            text31.style.color = 'black'
+            text32.style.color = 'black'
+            text33.style.color = 'black'
+            text34.style.color = 'black'
+            text35.style.color = 'black'
+            text36.style.color = 'black'
+            text37.style.color = 'black'
+            text38.style.color = 'black'
 
-            inpForm1.style.background = 'white'
+            inpForm1.style.backgroundColor = 'white'
+            inpForm2.style.backgroundColor = 'white'
+            inpForm3.style.backgroundColor = 'white'
+            inpForm4.style.backgroundColor = 'white'
 
             mmm.style.color = 'black'
             mmm2.style.color = 'black'
             mmm3.style.color = 'black'
-            cardbg1.style.background = 'white'
-            cardbg2.style.background = 'white'
-            cardbg3.style.background = 'white'
+            cardbg1.style.backgroundColor = 'white'
+            cardbg2.style.backgroundColor = 'white'
+            cardbg3.style.backgroundColor = 'white'
+            textserv.style.background = 'white'
+
 
             bgModal.style.background = 'white'
             bgModal.style.color = 'black'
@@ -198,6 +240,13 @@ const slider = document.querySelector(".items");
             cardsHab.style.background = ''
             cardsHab2.style.background = ''
             cardsHab3.style.background = ''
+
+            sec5.style.background = ''
+            boxtable.style.background = ''
+            cardfaq1.style.borderColor = ''
+            cardfaq2.style.borderColor = ''
+            cardfaq3.style.borderColor = ''
+            cardfaq4.style.borderColor = ''
 
             text1.style.color = ''
             text2.style.color = ''
@@ -229,8 +278,21 @@ const slider = document.querySelector(".items");
             text26.style.color = ''
             text27.style.color = ''
             text28.style.color = ''
+            text29.style.color = ''
+            text30.style.color = ''
+            text31.style.color = ''
+            text32.style.color = ''
+            text33.style.color = ''
+            text34.style.color = ''
+            text35.style.color = ''
+            text36.style.color = ''
+            text37.style.color = ''
+            text38.style.color = ''
 
             inpForm1.style.background = ''
+            inpForm2.style.backgroundColor = ''
+            inpForm3.style.backgroundColor = ''
+            inpForm4.style.backgroundColor = ''
 
             mmm.style.color = ''
             mmm2.style.color = ''
@@ -238,6 +300,7 @@ const slider = document.querySelector(".items");
             cardbg1.style.background = ''
             cardbg2.style.background = ''
             cardbg3.style.background = ''
+            textserv.style.background = '#09090B'
 
             bgModal.style.background = ''
             bgModal.style.color = ''
@@ -283,6 +346,46 @@ function openModal() {
 
 
 
+// FAQ PERGUNTAS FREQUENTES
+
+const opentable1 = document.getElementById('opentable1');
+const opentable2 = document.getElementById('opentable2');
+const opentable3 = document.getElementById('opentable3');
+const opentable4 = document.getElementById('opentable4');
+const cardContent = document.getElementsByClassName('card-faq')[0];
+const cardContent2 = document.getElementsByClassName('card-faq')[1];
+const cardContent3 = document.getElementsByClassName('card-faq')[2];
+const cardContent4 = document.getElementsByClassName('card-faq')[3];
+
+function abrirTable() {
+    if(opentable1.checked == true){
+        cardContent.style.height = '8.5rem'  
+    }else{cardContent.style.height = ''}
+
+    if(opentable2.checked == true){
+        cardContent2.style.height = '8.5rem'
+    }else{cardContent2.style.height = ''}
+
+    if(opentable3.checked == true) {
+        cardContent3.style.height = '8.5rem'
+    }else{cardContent3.style.height = ''}
+
+    if(opentable4.checked == true) {
+        cardContent4.style.height = '8.5rem'
+    }else{cardContent4.style.height = ''}
+    if(window.innerWidth <500 && opentable3.checked){
+        cardContent3.style.height = '14rem'
+    }
+    if(window.innerWidth <500 && opentable2.checked){
+        cardContent2.style.height = '14rem'
+    }
+    if(window.innerWidth <500 && opentable4.checked){
+        cardContent4.style.height = '10rem'
+    }
+    if(window.innerWidth <400 && opentable3.checked){
+        cardContent3.style.height = '16rem'
+    }
+}
 
 
 
