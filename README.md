@@ -28,7 +28,7 @@ Javascript, HTML, CSS, UI Design, Animações...
 
 ## Feedback
 
-Ainda incompleto...🖥⏰
+Finalizado.
 
 ## Roadmap
 
