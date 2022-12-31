@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.9.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -142,6 +137,27 @@
   }
 
   /**
+   * ScrollReveal Animação
+   */
+  
+  ScrollReveal().reveal('#icon1', { delay: 150 });
+  ScrollReveal().reveal('#icon2', { delay: 200 });
+  ScrollReveal().reveal('#icon3', { delay: 250 });
+  ScrollReveal().reveal('#icon4', { delay: 300 });
+  ScrollReveal().reveal('#icon5', { delay: 350 });
+  ScrollReveal().reveal('#icon6', { delay: 400 });
+  ScrollReveal().reveal('#icon7', { delay: 450 });
+  ScrollReveal().reveal('#icon8', { delay: 500 });
+  ScrollReveal().reveal('.dif1 ', { delay: 100 });
+  ScrollReveal().reveal('.dif2', { delay: 200 });
+  ScrollReveal().reveal('.dif3', { delay: 300 });
+  ScrollReveal().reveal('.dif4', { delay: 400 });
+  ScrollReveal().reveal('.dif5', { delay: 500 });
+  ScrollReveal().reveal('.dif6', { delay: 600 });
+
+
+
+  /**
    * Skills animation
    */
   let skilsContent = select('.skills-content');
@@ -195,51 +211,6 @@
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
-  });
 
   /**
    * Animation on scroll
