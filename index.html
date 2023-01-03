@@ -12,8 +12,8 @@
     <link href="css/lightDark.css" rel="stylesheet">
     <link href="css/mediaqueries.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets1/logonavegador.jpg">
-    <script defer src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body id="principal" onload="loading()">
@@ -42,11 +42,11 @@
                 <span class="bottom"></span>
             </label>
             <div id="navMenu">
-                <a onclick="closeModal()" class="linksNav tt" href="#ancora-inicio">Ínicio</a>
-                <a class="linksNav tt" href="#section2">Sobre</a>
-                <a class="linksNav tt" href="#section4">Serviços</a>
-                <a class="linksNav tt" href="#sec3-h2">Projetos</a>
-                <a class="linksNav tt" href="pagePortifolio/index.html">Portifólio</a>
+                <a onclick="closeModal()" class="linksNav tt nav1" href="#ancora-inicio">Ínicio</a>
+                <a class="linksNav tt nav2" href="#section2">Sobre</a>
+                <a class="linksNav tt nav3" href="#section4">Serviços</a>
+                <a class="linksNav tt nav4" href="#sec3-h2">Projetos</a>
+                <a class="linksNav tt nav5" href="pagePortifolio/index.html">Portifólio</a>
 
                 <div class="toggleWrapper">
                     <input onclick="changeBg1()" type="checkbox" class="dn" id="dn">
@@ -83,7 +83,7 @@
             <p class="headline-p tt">Garanta autoridade, credibilidade e alcance no meio digital que vão destacar
                 sua marca
                 no mercado e sair na frente de seus concorrentes<span class="dot">.</span></p>
-            <a href="#ancora-footer"><input value="Contate-me" type="submit" class="headline-btn"></input></a>
+            <a class="headbtn" href="#ancora-footer"><input value="Contate-me" type="submit" class="headline-btn"></input></a>
         </section>
         <div id="div-aside">
             <img id="img-aside" src="assets1/aside2.svg" alt="img Aside">
@@ -240,7 +240,7 @@
             <div id="box-table">
                 
                 <div onselectstart="return false" id="cards-habilidade-faq">
-                    <div class="card-faq">
+                    <div class="card-faq faq1">
                         <div class="header-faq">
                             <h3 class="title-faq tt">Qual o prazo de entrega? </h3>
                             <label class="container-faq">
@@ -258,7 +258,7 @@
 
                         </div>
                     </div>
-                    <div class="card-faq">
+                    <div class="card-faq faq2">
                         <div class="header-faq">
                             <h3 class="title-faq tt">Entrei em contato e agora?</h3>
                             <label class="container-faq">
@@ -280,7 +280,7 @@
 
                         </div>
                     </div>
-                    <div class="card-faq">
+                    <div class="card-faq faq3">
                         <div class="header-faq">
                             <h3 class="title-faq tt">Quais os planos de contratação?</h3>
                             <label class="container-faq">
@@ -301,7 +301,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card-faq">
+                    <div class="card-faq faq4">
                         <div class="header-faq">
                             <h3 class="title-faq tt">Como é o Suporte?</h3>
                             <label class="container-faq">
@@ -370,7 +370,7 @@
         </div>
         <!--Right-->
     </footer>
-
+    <script src="scrollReveal.js"></script>
     <script src="preload.js"></script>
     <script src="script.js"></script>
 
