@@ -35,7 +35,11 @@ Finalizado.
 
 - Realizar Testes
 
+- Revisar
+
 - Preparar para Lançamento
+
+- Deploy
 
 
 ## 🔗 Links
