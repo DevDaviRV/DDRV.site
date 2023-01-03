@@ -1,10 +1,3 @@
-//Criar Modal para Button Contate-me
-
-let teste = "ola mundo"
-
-function abrirContatos() {
-  console.log(teste);
-}
 
 //efeito digitação 
 
@@ -19,6 +12,12 @@ new TypeIt("#testjs", {
   speed: 50,
   waitUntilVisible: true,
 }).go();
+
+new TypeIt(".headline-p", {
+    strings: "",
+    speed: 20,
+    waitUntilVisible: true,
+  }).go();
 
 
 
@@ -306,19 +305,7 @@ const slider = document.querySelector(".items");
             bgModal.style.color = ''
         }
     }
-// Tentanto achar uma forma desaparecer pcard quando onmouseover em qualquer dos Card
 
-    //  function sumir(){
-    //   if(onmouseover == true){
-    //   mmm.style.visibility = 'hidden'
-    //   mmm2.style.visibility = 'hidden'
-    //   mmm3.style.visibility = 'hidden'
-    // }}
-    // function aparecer() {
-    //   mmm.style.visibility = 'visible'
-    //   mmm2.style.visibility = 'visible'
-    //   mmm3.style.visibility = 'visible'
-    // }
 
 // Ver posição do elemtento na pagina (ex: TOP)
     // var p = document.querySelector('#sec3-h2');
@@ -364,6 +351,9 @@ function abrirTable() {
 
     if(opentable2.checked == true){
         cardContent2.style.height = '8.5rem'
+        cardContent.style.height= ''
+        opentable1.checked = false;
+
     }else{cardContent2.style.height = ''}
 
     if(opentable3.checked == true) {
@@ -386,7 +376,6 @@ function abrirTable() {
         cardContent3.style.height = '16rem'
     }
 }
-
 
 
 
