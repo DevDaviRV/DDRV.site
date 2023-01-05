@@ -155,8 +155,6 @@
   ScrollReveal().reveal('.dif5', { delay: 500 });
   ScrollReveal().reveal('.dif6', { delay: 600 });
 
-
-
   /**
    * Skills animation
    */
